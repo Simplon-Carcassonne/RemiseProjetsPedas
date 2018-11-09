@@ -1,0 +1,189 @@
+body{
+  background-color: #e7e7e7;
+}
+section{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+}
+#trisArticle{
+/*  border:solid 5px red;*/
+  width: 250px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Helvetica-Normal';
+  height: 500px;
+  position: sticky;
+  top:5%;
+  width: 20%;
+  
+
+}
+#categorie{
+  padding-top: 11%;
+}
+#categorie,#marques,#gammes,#prix2{
+  color: #3c9640;
+  align-self: center;
+  margin-bottom: 2%;
+}
+#categorie2{
+  height:80px; 
+}
+#marques2{
+  height:250px;
+}
+#gammes2{
+  height:230px;
+}
+#prix{
+  height: 110px;
+}
+#mini,#mini2{
+  display: flex;
+  flex-direction: column;
+}
+#maxi,#maxi2{
+  display: flex;
+  flex-direction: column;
+}
+#mini2{
+  width: 60px;
+}
+#maxi2{
+  width: 60px;
+}
+
+#prix{
+/*  border: solid 5px blue;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#produits{
+  width:80%;
+}
+#trisArticle{
+  width:20%;
+}
+
+.produitCatalogue:hover{
+  /*filter: blur(2px) opacity(1);*/
+  filter:  /*saturate(20%)*/ /*brightness(80%)*/ contrast(50%);
+  background-color: #FFFFFFFF; 
+  box-shadow: 5px 5px 25px gray;
+
+}
+.produitCatalogue{
+  width: 25%;
+  height: 270px;
+  border-radius: 20px;
+  border : solid 2px #EA2434;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:2%;
+  text-align: center;
+  justify-content: space-between;
+  overflow: hidden;
+  min-width: 200px;
+  /*padding-top: 2%;*/
+  padding-bottom: 2%;
+  background-color: white;
+
+
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.produitCatalogue img{
+  margin-top: 3%;
+  width: 60%;
+}
+
+#produits{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.prix{
+  margin: 0;
+  padding: 0;
+}
+
+
+.cataDescriptProduit{
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+  width: 100%;
+  padding-bottom: 2%;
+  align-self: flex-end;
+}
+.active{
+  border: none;
+}
+.active2{
+  border-bottom:2px solid #ea2434;
+
+}
+
+.cataloguePrix{
+  font-size: 150%;
+  color:green;
+  margin: 1%;
+}
+
+.cataDescriptProduit{
+  margin: 0;
+}
+
+.cataAppelationProduit{
+  margin: 0;
+  color:#ea2434;
+}
+
+
+
+@media (max-width:768px){
+  #trisArticle{
+    width: 100Vw;
+    position: static;
+    height: 150px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #trisArticle * {
+    height: auto;
+    padding: 0;
+    margin: 0;
+  }
+  #categorie, #marques, #gammes, #prix2 {
+    display: none;
+  }
+  section {
+    flex-direction: column;
+    width: 100vw;
+  }
+  #produits{
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 550px) {
+  #trisArticle {
+    font-size: 40%;
+  }
+}
+

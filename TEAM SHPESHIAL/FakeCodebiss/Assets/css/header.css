@@ -1,0 +1,618 @@
+/*header*/
+@font-face {
+  font-family:'Clean Sports';
+  src:url('../fonts/Clean Sports.ttf');
+}
+/* debut  header */
+header /* intégralité du header */ {
+  background-color: #3C9640;
+  font-family: 'Clean Sports';
+  font-size: 8px;
+  min-height: 80px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.titre /* L'image principale du nom du site */ {
+  width: auto;
+  height: auto;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+nav ul{
+  width:30vw;
+  height:30px;
+  padding-top: 15px;
+  text-decoration: none;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+
+}
+nav ul li{
+  height: 16px;
+}
+nav a {
+  text-decoration: none;
+
+  color:white;
+}
+.active{
+  border-bottom:2px solid #ea2434;
+}
+
+#burger {
+    display: none
+}
+/* Fin partie header*/
+
+/* debut de section */
+section {
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content:center;
+  width: 80%;
+  height:auto;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #E7E7E7;
+}
+
+.carroussel {
+  margin: 0 auto;
+  margin-top: 1%;
+  width:800px;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+.image_une{
+  background-image: url('../images/velo1_midle.jpg');
+  width: 800px;
+  height: 532px;
+  max-width: 100%;
+  max-height: 100%;
+}
+ .image_deux{
+  background-image: url("../images/velo2_midle.jpg");
+  width: 800px;
+  height: 532px;
+  max-width: 100%;
+  max-height: 100%;
+}
+ .image_trois{
+  background-image: url("../images/velo3_midle.jpg");
+  width: 800px;
+  height: 532px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.image_quatre {
+  background-image: url("../images/velo4_midle.jpg");
+  width: 800px;
+  height: 532px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.image_cinq {
+  background-image: url("../images/velo5_midle.jpg");
+  width: 800px;
+  height: 532px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.tourne{
+  position: sticky;
+  width: 4000px;
+  transform: translateX(-800px);
+  animation-name:slider;
+	animation-duration:30s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count:infinite;
+    overflow: hidden;
+}
+
+@keyframes slider {
+	0% { transform: translateX(0px); }
+  10% {transform: translateX(0px);}
+	20% { transform: translateX(-800px); }
+	30% { transform: translateX(-800px); }
+  40% { transform: translateX(-1600px); }
+	50% { transform: translateX(-1600px); }
+	60% { transform: translateX(-2400px); }
+	70% { transform: translateX(-2400px); }
+	80% { transform: translateX(-3200px); }
+	90% { transform: translateX(-3200px); }
+	100% { transform: translateX(0px);  }
+}
+
+.carroussel img {
+  width: 800px;
+  height: 532px;
+  max-width: 100%;
+  max-height: 100%;
+  float: left;
+    overflow: hidden;
+}
+
+.present {
+  position: relative;
+  height: auto;
+  width: auto;
+  margin: 0 auto;
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+
+.present h1 {
+
+  text-align: center;
+  font-family: 'Clean Sports';
+}
+
+.presentation {
+  height: auto;
+  margin: 0 auto;
+}
+
+.image_present img {
+  width: 150px;
+  height: auto;
+}
+
+.img_text {
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.text_present {
+  font-size: 16px;
+  width:auto;
+  height: auto;
+  margin-bottom: 1%;
+  margin-left:1%;
+
+}
+span{
+  white-space: normal
+}
+
+/* fin de section */
+/*partie footer*/
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #3C9640;
+    width: 100%;
+    height: 50px;
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer a{
+    text-decoration: none;
+    color:white;
+}
+
+footer a:hover {
+   text-decoration: underline;
+}
+
+#arup {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #EA2434;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#arup img {
+    height: 40px;
+    width: 40px;
+}
+
+#arup:active {
+    background-color: #AA2434
+}
+responsivité
+*/
+@media screen and (min-width: 768px) and (max-width: 860px) {
+  body {
+
+  }
+  header {
+    background-color: #3C9640;
+    width: 100vw;
+    margin-top: 10px;
+    font-family: 'Clean Sports';
+    font-size: 6px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 80PX;
+    height: auto;
+  }
+
+  .titre {
+    width: auto;
+    height: auto;
+  }
+
+  nav {
+    padding-top: 15px;
+    align-items: center;
+    width: 300px;
+    height: 30px;
+    text-decoration: none;
+  }
+
+  nav ul {
+    width: 300px;
+    height: 30px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  nav ul li {
+    height: 16px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .active {
+    border-bottom: 2px solid #ea2434;
+  }
+  .present {
+    position: relative;
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+    margin-top: 7%;
+    margin-bottom: 5%;
+  }
+  .carroussel {
+    margin: 0 auto;
+    margin-top: 1%;
+    width:768px;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+  }
+  .image_une{
+    background-image: url('../images/velo1_petit.jpg');
+    width: 768px;
+    height: 511px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+   .image_deux{
+    background-image: url("../images/velo2_petit.jpg");
+    width: 768px;
+    height: 511px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+   .image_trois{
+    background-image: url("../images/velo3_petit.jpg");
+    width: 768px;
+    height: 511px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .image_quatre {
+    background-image: url("../images/velo4_petit.jpg");
+    width: 768px;
+    height: 511px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .image_cinq {
+    background-image: url("../images/velo5_petit.jpg");
+    width: 768px;
+    height: 511px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .tourne{
+    position: sticky;
+    width: 3840px;
+    transform: translateX(-768px);
+    animation-name:slider;
+  	animation-duration:30s;
+  	animation-timing-function: ease-in-out;
+  	animation-iteration-count:infinite;
+      overflow: hidden;
+  }
+
+
+  .carroussel img {
+    width: 768px;
+    height: 511px;
+    max-width: 100%;
+    max-height: 100%;
+    float: left;
+      overflow: hidden;
+
+  }
+  @keyframes slider {
+  	0% { transform: translateX(0px); }
+    10% {transform: translateX(0px);}
+  	20% { transform: translateX(-768px); }
+  	30% { transform: translateX(-768px); }
+    40% { transform: translateX(-1536px); }
+  	50% { transform: translateX(-1536px); }
+  	60% { transform: translateX(-2304px); }
+  	70% { transform: translateX(-2304px); }
+  	80% { transform: translateX(-3072px); }
+  	90% { transform: translateX(-3072px); }
+  	100% { transform: translateX(0px);  }
+  }
+  section {
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: auto;
+    height:auto;
+    margin: 0 auto;
+  }
+.img_text{
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: nowrap; */
+  justify-content: flex-start;
+  align-items: left;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  }
+  .text_present span{
+    font-size: 18px;
+    width:auto;
+    height: auto;
+    margin-bottom: 1%;
+
+  }
+
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+  header /* intégralité du header */ {
+    background-color: #3C9640;
+    font-family: 'Clean Sports';
+    font-size: 8px;
+    min-height: 80px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  nav {
+      display: none;
+  }
+
+  #burger {
+      display: block;
+      height: 30px;
+      width: 30px;
+  }
+
+  .titre a img {
+      width: 50vw;
+      height: auto;
+  }
+
+  .logo img{
+      width: 10vw;
+      height:auto;
+      min-height: 50px;
+      min-width: 60px
+  }
+
+  .logo img {
+    width: 80PX;
+    height: auto;
+  }
+
+  .titre {
+    width: auto;
+    height: auto;
+  }
+
+  nav {
+    padding-top: 15px;
+    align-items: center;
+    width: 300px;
+    height: 30px;
+    text-decoration: none;
+  }
+
+  nav ul {
+    width: 300px;
+    height: 30px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  nav ul li {
+    height: 16px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  .present {
+    position: relative;
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+    margin-top: 7%;
+    margin-bottom: 5%;
+  }
+
+  .active {
+    border-bottom: 2px solid #ea2434;
+  }
+  .carroussel {
+    margin: 0 auto;
+    margin-top: 1%;
+    width:320px;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+  }
+  .image_une{
+    background-image: url('../images/velo1_petiot.jpg');
+    width: 320px;
+    height: 211px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+   .image_deux{
+    background-image: url("../images/velo2_petiot.jpg");
+    width: 320px;
+    height: 211px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+   .image_trois{
+    background-image: url("../images/velo3_petiot.jpg");
+    width: 320px;
+    height: 211px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .image_quatre {
+    background-image: url("../images/velo4_petiot.jpg");
+    width: 320px;
+    height: 211px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .image_cinq {
+    background-image: url("../images/velo5_petiot.jpg");
+    width: 320px;
+    height: 211px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .tourne{
+    position: sticky;
+    width: 1600px;
+    transform: translateX(-320px);
+    animation-name:slider;
+    animation-duration:30s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:infinite;
+      overflow: hidden;
+  }
+
+
+  .carroussel img {
+    width: 320px;
+    height: 211px;
+    max-width: 100%;
+    max-height: 100%;
+    float: left;
+      overflow: hidden;
+
+  }
+  @keyframes slider {
+    0% { transform: translateX(0px); }
+    10% {transform: translateX(0px);}
+    20% { transform: translateX(-320px); }
+    30% { transform: translateX(-320px); }
+    40% { transform: translateX(-640px); }
+    50% { transform: translateX(-640px); }
+    60% { transform: translateX(-960px); }
+    70% { transform: translateX(-960px); }
+    80% { transform: translateX(-1280px); }
+    90% { transform: translateX(-1280px); }
+    100% { transform: translateX(0px);  }
+  }
+
+  section {
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: auto;
+    height:auto;
+    margin: 0 auto;
+  }
+.img_text{
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: nowrap; */
+  justify-content: flex-start;
+  align-items: left;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  }
+  .text_present span{
+    font-size: 18px;
+    width:auto;
+    height: auto;
+    margin-bottom: 1%;
+
+  }
+
+  }
