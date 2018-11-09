@@ -1,0 +1,698 @@
+
+@font-face {
+  font-family: "New Yorker";
+  src: url("NEWYORKR.ttf")format('truetype');
+  font-family: "Futura Bk BT";
+  src: url("../Futura/Futura Book font.ttf")format('truetype');
+}
+body {
+}
+section{
+  position: relative;
+  top: 10px;
+  background: white;
+  height: 600px;
+  width: 100%;
+}
+
+footer{
+}
+
+/* 1  Bouton connexion */
+
+.connexion{
+  width: 1331px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.connex{
+  position:static;
+  style: none;
+  background-color: #fff;
+  color:#ABC645;
+  border: 2px solid #ABC645;
+  font-family: arial;
+  font-size: 22px;
+  height: 50px;
+  width: 200px;
+  border-radius:10px;
+}
+.connex:hover{
+  position:static;
+  style: none;
+  background-color: #ABC645;
+  color:#fff;
+  border: 2px solid #fff;
+  font-family: arial;
+  font-size: 22px;
+  height: 50px;
+  width: 200px;
+  border-radius:10px;
+}
+
+/* 2 Pop UP */
+
+.carrebleu{
+  border: 2px solid blue;
+  width: 7px;
+  height: 7px;
+}
+#popup{
+
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  top: 10px;
+  background: buttonface;
+  height:500px;
+  width: 1331px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.inerpopup{
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3em;
+  height: 50px;
+  width: 95%;
+  border-bottom: 3px solid silver;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+.inerpopupcol1{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.inerpopupcol2{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  color: silver;
+}
+.inerpopupcol2 div{
+  margin-left: 30px;
+}
+.inerpopupcol2 div:last-child{
+  margin-right: 10px;
+}
+.things{
+  color: black;
+  margin-right: 7px;
+}
+.logothings{
+  height: 25px;
+  margin-right: 7px;
+
+}
+.popup{
+  display: flex;
+  background-color: #444444;
+  color: #fff;
+  height: 20px;
+  width: 350px;
+  font-size: 10px;
+  text-align: left;
+  font-family: "Roboto", "FreeSans", sans-serif;
+  position: fixed;
+  left: 35%;
+  top: 50%;
+  text-align: justify;
+  z-index: 1000;
+  padding: 15px;
+  border-radius: 3px;
+  justify-content: flex-start;
+  box-shadow: -2px 2px 4px gray;
+  align-items: center;
+}
+
+#imgvalid{
+  left: 15px;
+  height: 25px;
+  width: auto;
+}
+.textePUP{
+  position: absolute;
+  left: 45px;
+}
+.textePUP1{
+  font-weight: bold;
+  line-height: ;
+}
+.textePUP2{
+  color: gray;
+}
+
+/* 3 Wee See */
+
+#wesee{
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1331px;
+}
+.wesee{
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  background-color: #00D494;
+  color: white;
+  font-family: 'Gilroy','Futura Hv BT', sans-serif;
+  font-weight: bold;
+  letter-spacing: -4px;
+  font-size: 6.5em;
+  font-weight: 700;
+  text-align: center;
+  height: 200px;
+}
+.blocks{
+  position: absolute;
+  align-items: baseline;
+  width: 100%;
+  top: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Gilroy','Futura Hv BT', FreeSans, sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.block1{
+  background-color: white;
+  color: black;
+  width: 325px;
+  height: 255px;
+  font-size: 22px;
+  font-family:'FreeSans', sans-serif;
+  letter-spacing: 1px;
+  box-shadow: -2px 2px 4px gray;
+  padding: 10px;
+
+}
+.block2{
+  background-color: white;
+  color: black;
+  width: 325px;
+  height: 255px;
+  font-size: 22px;
+  font-family:'FreeSans', sans-serif;
+  letter-spacing: 1px;
+  box-shadow: -2px 2px 4px gray;
+  padding: 10px;
+}
+.block3{
+  background-color: white;
+  color: black;
+  width: 325px;
+  height: 255px;
+  font-size: 22px;
+  font-family:'FreeSans', sans-serif;
+  letter-spacing: 1px;
+  box-shadow: -2px 2px 4px gray;
+  padding: 10px;
+}
+.blocks h2{
+  font-size: 1.65em;
+  font-family: 'Gilroy','Futura Hv BT', FreeSans, sans-serif;
+    letter-spacing: 0;
+}
+.inerblock{
+  background-color: rgba(0, 0, 0, 0.0);
+  width: 40px;
+  height: 50px;
+}
+.bD{
+  position: relative;
+  top: 20px;
+  left: 10px;
+  background-color: #00D494;
+  height: 10px;
+  width: 50px;
+}
+.text{
+  text-align: left;
+  top: 40px;
+  left: 10px;
+  font-weight: 100;
+  font-size: 0.9em;
+  line-height: 28px;
+}
+
+/* 4 E-Commerce */
+
+#ecom{
+  width: 1331px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: FreeSans,sans-serif;
+  background-color: #fff;
+}
+.snaregroupe{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: #fff;
+}
+.snaretext{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+}
+.Snare{
+  height: 200px;
+  width: auto;
+}
+.snarepic{
+  position: relative;
+  right: 10px;
+  height: 200px;
+  width: auto;
+}
+.rond{
+  color: red;
+  border: 3px solid red;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-weight: bold;
+  font-family: FreeSans, sans-serif;
+  font-size: 27px;
+  line-height: -0.5;
+}
+.stickgroupe{
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: #fff;
+}
+.sticktext{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+
+}
+.stickpic{
+  position: relative;
+  left: 10px;
+  height: 200px;
+  width: auto;
+}
+.submitshop{
+  border: none;
+  style: none;
+  background-color: black;
+  color:#fff;
+  font-family: arial;
+  font-size: 18px;
+  height: 40px;
+  width: 200px;
+  font-weight: bold;
+}
+.soustitre{
+  font-weight: bold;
+  color: red;
+}
+#ecom h5{
+  color: red;
+}
+#ecom p{
+  font-family: "Times", serif;
+}
+
+/* 5 The Voice */
+
+.Thevoice{
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  width: 800px;
+  height: 310px;
+  padding: 20px;
+}
+.ThevoiceTitre{
+  font-size: 50px;
+  font-family: "New Yorker";
+}
+.Why{
+  font-size: 25px;
+  font-family: "Times";
+}
+.Groopman{
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Futura Hv BT', FreeSans, sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  left: 35px;
+}
+#jdgroop{
+  display: flex;
+  height: 60px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+.ligne{
+  background-color: lightgray;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1.5px;
+  width: 100%;
+}
+.Talk{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.T{
+  font-family: Kinnari, serif;
+  font-size: 90px;
+}
+.Talking{
+  font-family: Kinnari, serif;
+  align-items: flex-end;
+  font-size: 23px;
+  line-height: 32px;
+}
+em{
+  font-family: Kinnari,sans-serif;
+  line-height: 24px;
+}
+/* 6 Pub Apple */
+
+#ApplePub{
+  margin-left: auto;
+  margin-right: auto;
+  font-family: FreeSans, sans-serif;
+  background-image: radial-gradient(ellipse at left, purple, #150215, black);
+  background-repeat: no-repeat, no-repeat,;
+  background-position: center, left;
+  z-index: -1000;
+  width: 1331px;
+  height: 937px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+.MacbookPic{
+  height: 937px;
+  width: auto;
+}
+.AppleTexte{
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  width: auto;
+  color: white;
+}
+.forget{
+  font-size: 37px;
+  font-weight: bold;
+}
+.touchID{
+  font-size: 19.8px;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 30px;
+}
+.Appleligne{
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-left: auto;
+  margin-right: auto;
+  height: 1.5px;
+  width: 100%;
+}
+.SwitchPlus{
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+  align-content: center;
+
+}
+.Switch{
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+}
+.plus{
+  display: flex;
+  font-size: 30px;
+}
+.applefondtext{
+  background-color: rgba(255, 0, 255, 0);
+  width: 66px;
+  height: 146px;
+
+}
+.entreTextRond{
+  background-color: rgba(255, 0, 255, 0);
+  width: 66px;
+  height: 20px;
+
+}
+.Ronds{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0);
+  height: 180px;
+  width: auto;
+
+}
+.Applerond{
+  display: flex;
+  height: 7px;
+  width: 7px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+.ApplerondW{
+  display: flex;
+  height: 7px;
+  width: 7px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 50%;
+}
+/* 7 Shinola */
+
+#shinola{
+  margin-top: 10px;
+
+}
+.ShiTop{
+  width: 1331px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  background-size:
+}
+.ShiLogo{
+
+}
+.ShiNav{
+  margin-left: 145px;
+  height: 100PX;
+  width: 1192px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+  letter-spacing: 3px;
+  line-height: 30px;
+  margin-bottom: 25px
+}
+.rye{
+  font-family: 'JMH Typewriter','Another Typewriter','Rye', cursive;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+.Shijoin{
+  width:120px;
+  font-family: 'Anton', sans-serif;
+  font-size: 75%;
+  color: white;
+  position: relative;
+  top: 17px;
+  left: 1150px;
+}
+.ShiFace{
+  width: 25px;
+  height: auto;
+  margin: 2px;
+}
+.ShiSteam{
+  width: 25px;
+  height: auto;
+  margin: 2px;
+}
+.Slideshow{
+  width: 1331px;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.SliLeft{
+  background-color: fuchsia;
+  background-image: url("bike-shopBord2.jpg");
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  width: 145px;
+  height: 700px;
+}
+.SliLeft:hover{
+  background-color: fuchsia;
+  background-image: url("bike-shopBord2.jpg");
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  width: 145px;
+  height: 700px;
+}
+.SliRight{
+  background-color: fuchsia;
+  background-image: url("bike-shopBord1.jpg");
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  width: 145px;
+  height: 700px;
+}
+.SliRight:hover{
+  background-color: fuchsia;
+  background-image: url("bike-shopBord1.jpg");
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  width: 145px;
+  height: 700px;
+}
+.SliinnerW{
+  background-color: white;
+  width: 5px;
+  height: 700px;
+}
+.SliCenter{
+  background-color: gray;
+  background-image: url("BikeShop.jpg");
+  width: 1031px;
+  height: 700px;
+}
+.SlicenterTexte{
+  position: relative;
+  top: 60%;
+  left: 5%;
+}
+.SlicenterTexte-Bikes{
+  font-family: 'Anton', sans-serif;
+  font-size: 18px;
+  color: white;
+  font-weight: lighter;
+}
+.SlicenterTexte-Corp{
+  font-family: 'Anton', sans-serif;
+  font-size: 2.5em;
+  line-height: 120%;
+  color: white;
+  letter-spacing: 3px;
+}
+.Shitexte_line{
+  margin-top: 0.7%;
+  height: 2px;
+  width: 320px;
+  background-color: white;
+}
+.Shitexte_Texte-2{
+  margin-top: 0.7%;
+  font-family: FreeSans;
+  font-weight: lighter;
+  font-size: 13px;
+  color: white;
+  line-height: 120%;
+}
+.Arrow{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.Rectangle{
+  width: 100px;
+  height: 20px;
+  background-color: gold;
+  color: white;
+  font-family: FreeSans;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.triangle{
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid gold;
+}
+
+.ShiArroLeft{
+  position: relative;
+  left: 80%;
+  top: 40%;
+}
+.ShiArroRight{
+  position: relative;
+  left: 5%;
+  top: 40%;
+  transform: rotate(180deg)
+}
+.blockFooter{
+  margin-top: 20px;
+  color: white;
+  background-color: #000000;
+  font-family: FreeSans, sans-serif;
+  bottom: 100%;
+}
