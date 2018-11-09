@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'ACaslon';
+    src: url('font/ACaslon-Regular.woff2') format('woff2'),
+        url('font/ACaslon-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'New Yorker';
+    src: url('font/NewYorker.woff2') format('woff2'),
+        url('font/NewYorker.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neutra Text';
+    src: url('font/NeutraText-Book.woff2') format('woff2'),
+        url('font/NeutraText-Book.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.TP {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    
+}
+
+.T {
+    font-family: 'ACaslon';
+    font-style: normal;
+    font-size: 300%; 
+    font-weight: 400;
+    padding-top: 0.7%;
+}
+
+.idavatar {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #CCCCCC;
+    padding-bottom: 0.7%;
+}
+
+.hhh {
+    align-self: flex-end;
+    position: relative;
+    top: 4px;
+    padding-left: 0.3%;
+    width: 50%;
+    font-family: 'Neutra Text';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 95%;
+    
+}
+
+.P {
+    font-family: 'ACaslon';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 130%;
+    padding-left: 0.2%;
+}
+
+.hh {
+    font-family: 'ACaslon';
+    font-weight: 400;
+    font-style: italic;
+    font-size: 120%; 
+}
+
+.h {
+    font-family: 'New Yorker';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200%;
+}
+
+.avatar {
+    height: 3%;
+    width: 3%;
+}

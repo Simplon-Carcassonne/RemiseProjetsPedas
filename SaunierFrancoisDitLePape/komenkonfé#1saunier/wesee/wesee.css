@@ -1,0 +1,109 @@
+@font-face font-family: 'Pontano Sans',
+sans-serif;
+url('https://fonts.googleapis.com/css?family=Pontano+Sans');
+
+.titre {}
+
+.body {
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bloc {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+
+
+}
+
+.b1 {
+
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    border: 3px solid #ECECEC;
+    background: #ffffff;
+    padding: 3% 4%;
+    width: 30%;
+    height: 50%;
+    margin-right: 2%;
+}
+
+h2 {
+    font-family: "Pontano Sans", sans-serif;
+
+}
+
+.border123 {
+    height: 8px;
+    width: 53px;
+    background-color: #21D991;
+}
+
+header {
+    background: #21D991;
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Pontano Sans", sans-serif;
+    font-weight: bold;
+
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Pontano Sans", sans-serif;
+    font-weight: bolder;
+    
+
+}
+
+.b2 {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    border: 3px solid #ECECEC;
+    background: #ffffff;
+    padding: 3% 4%;
+    width: 30%;
+    height: 30%;
+
+}
+
+.b3 {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    border: 3px solid #ECECEC;
+    background: #ffffff;
+    padding: 3% 4%;
+    width: 30%;
+    height: 30%;
+    margin-left: 2%;
+
+}
+
+.h1 {
+    position: relative;
+    top: -35px;
+    font-size: 700%;
+    font-weight: 600;
+
+}
+
+.corpbloc {
+    position: relative;
+    top: -50px;
+    width: 100%;
+
+}

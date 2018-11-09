@@ -1,0 +1,230 @@
+    margin: 0;
+    padding: 0;
+
+    }
+
+    @font-face {
+    font-family: 'Akzidenz-Grotesk BQ';
+    src: url('font/AkzidenzGroteskBQ-Reg.woff2') format('woff2'),
+        url('font/AkzidenzGroteskBQ-Reg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+    @font-face {
+        font-family: 'BauerBodni BT';
+        src: url('font/BauerBodoniBT-Roman.woff2') format('woff2'),
+            url('font/BauerBodoniBT-Roman.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+@font-face {
+    font-family: 'OPTIAkroGrotesk-Cond';
+    src: url('font/OPTIAkroGrotesk-Cond.woff2') format('woff2'),
+        url('font/OPTIAkroGrotesk-Cond.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+    .bodydy {
+        height: 100%;
+        width: 100%;
+        color: #ffffff;
+    }
+
+    #heading {}
+
+
+    .entete {
+        text-decoration-style: none;
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        background: #2C2E2B;
+        height: 15%;
+        width: 91%;
+        padding-bottom: 1%;
+        padding-top: 1%;
+        padding-left: 9%;
+    }
+
+    .joinft {
+        display: inline-flex;
+        justify-content: flex-end;
+        width: 61%;
+
+
+
+    }
+
+    .face {}
+
+    .trb {
+        padding-left: 10%;
+    }
+
+
+    li {
+        list-style: none;
+    }
+
+    #corp {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
+        background-image: url(img/sarah.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 85%;
+    }
+
+    a {
+        text-decoration: none;
+        color: #ffffff;
+        line-height: 24px;
+    }
+
+    .joinnews {
+        width: 15%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .join {
+        
+        position: relative;
+        left: -44px;
+        font-family: 'BauerBodni BT';
+        font-weight: 600;
+        font-style: normal;
+        font-size: 12px;
+        margin-top: 0;
+
+    }
+
+    .chgg {}
+
+    .chdd {}
+
+    .tof {
+        background-image: url(img/elfnain.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-left: 3px solid #FFFFFF;
+        border-right: 3px solid #FFFFFF;
+        height: 100%;
+        width: 80%;
+
+    }
+
+    .pitch {
+        margin-top: 25%;
+        margin-right: 25%;
+        padding-left: 4%;
+        padding-bottom: 2%;
+    }
+
+    .centrale {
+        border-left: 2px solid #30322F;
+        border-right: 2px solid #30322F;
+        padding-left: 3%;
+        padding-right: 3%;
+        font-size: 130%;
+        height: 13%;
+
+
+    }
+
+    .gauchegauche {
+        height: 13%;
+
+    }
+
+    .gauche {
+        height: 13%;
+
+    }
+
+    .linkentete {
+        height: 13%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .droitedroite {
+        height: 13%;
+
+    }
+
+    .chg {
+        padding-top: 11%;
+    }
+
+    .chd {
+        padding-top: 11%;
+    }
+
+
+
+
+
+    .hh {
+        font-family: 'BauerBodni BT';
+        font-weight: 600;
+        font-style: normal;
+        font-size: 12px;
+        letter-spacing: 3px;
+        color: #7D7F7C;
+    }
+
+    .hhh {
+     font-family: 'OPTIAkroGrotesk-Cond';
+    font-weight: 700;
+    font-style: normal;
+        letter-spacing: 3px;
+
+    }
+
+    .fimo {
+        font-family: "Aileron";
+        font-weight: 600;
+        font-style: normal;
+        font-size: 60%;
+        margin-bottom: 0;
+    }
+
+    .read {
+       font-family: 'Akzidenz-Grotesk BQ', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+        font-size: 13px;
+        line-height:17px;
+        margin-top: 6px;
+        
+    }
+
+    .fimomo {
+        font-family: 'OPTIAkroGrotesk-Cond';
+    font-weight: 900;
+    font-style: normal;
+        font-size: 220%;
+        line-height: 37px; 
+        letter-spacing: 1px;
+        border-bottom: 2px solid #ffffff; 
+        width: 50%;
+        margin: 0;
+        padding: 0 0 9px;
+    }
+
+.learn {
+    height: 32px;
+    width: 144px;
+}
