@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "Open Sans", sans-serif;
+    font-family: "Domine", serif;
+}
+
+.shopnow {
+    background: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.num {
+    border-color: #BC5242 #BC5242;
+    border-radius: 100%;
+    background: #ffffff;
+    color: #BC5242;
+    box-shadow: none;
+}
+
+
+
+
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.colonne {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+}
+
+.bodyshop {
+    height: 100%;
+    width: 100%;
+}
+
+.article1 {
+    height: 60%;
+    width: 60%;
+    position: relative;
+    left: 7%;
+
+}
+
+.article2 {
+    height: 60%;
+    width: 60%;
+    position: relative;
+    left: 7%;
+
+
+}
+
+.text1 {
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    margin: 5%;
+    font-family: "Domine"sans-serif;
+    
+
+
+
+}
+
+.text2 {
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    margin: 5%;
+    font-family: "Domine"sans-serif;
+    
+}
+
+
+
+
+
+
+.hh {
+    font-family: "Open Sans", serif bold;
+    color: #000000;
+    font-size: 170%;
+}
+
+
+
+
+
+
+.hhh {
+    font-size: 70%;
+    color: #BC5242;
+    font-family: "Open Sans", serif;
+
+
+}
