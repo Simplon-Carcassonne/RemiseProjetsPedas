@@ -1,0 +1,75 @@
+@font-face {
+    font-family: OptiNational;
+    src: url(OPTINational.otf);
+}
+
+body {
+	background-color: #FEF8F2;
+	overflow-y: hidden;
+}
+
+h1 {
+	margin-top: 38px;
+	text-align: center;
+	font-family: OptiNational;
+	font-size: 300%;
+	text-shadow: 1px 1px 1px gray;
+	margin-bottom: 50px;
+}
+
+h2 {
+	text-align: center;
+	font-family: Arial;
+	font-size: 90%;
+	color: #222222;
+	text-shadow: 0px 0px 1px lightgray;
+}
+
+#dualit {
+	display: flex;
+	justify-content: center
+}
+
+#premier, #second {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	height: 200px;
+	margin: 40px;
+	font-family: arial;
+}
+
+#premier p, #second p {
+	color: #444444;
+	font-weight: 200;
+	text-shadow: 0px 0px 1px lightgray;
+}
+
+#simplon {
+	width: 200px;
+	height: 144px;
+	border: solid 2px gray;
+}
+
+#pres {
+	width: 200px;
+	height: 144px;
+	border: solid 2px gray;
+}
+
+footer {
+	margin-top: 200px;
+	background-color: #676767;
+	height: 1000px;
+	text-align: right;
+}
+
+footer p {
+	color: lightgray;
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 90%;
+	padding-top: 15px;
+	padding-right: 15px;
+}
