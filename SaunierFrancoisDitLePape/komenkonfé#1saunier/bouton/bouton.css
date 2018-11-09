@@ -1,0 +1,41 @@
+.insc {
+    border: 2px solid #ABC645;
+    line-height: 50px;
+    padding: 0 10px;
+    font-size: 2em;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #ABC645;
+    font-family: "arial",sans-serif;
+    
+
+}
+
+.insc:hover {
+    background-color: #ABC645;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+
+
+.con {
+   border: 2px solid #ABC645;
+    line-height: 50px;
+    padding: 0 10px;
+    font-size: 2em;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #ABC645;
+    font-family: "arial",sans-serif;
+}
+
+.con:hover {
+     background-color: #ABC645;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+
