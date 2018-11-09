@@ -1,0 +1,138 @@
+
+/*header*/
+@font-face {
+  font-family:'Clean Sports';
+  src:url('../fonts/Clean Sports.ttf');
+}
+/* debut  header */
+header /* intégralité du header */ {
+  background-color: #3C9640;
+  font-family: 'Clean Sports';
+  font-size: 8px;
+  min-height: 80px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.titre /* L'image principale du nom du site */ {
+  width: auto;
+  height: auto;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+nav ul{
+  width:30vw;
+  height:30px;
+  padding-top: 15px;
+  text-decoration: none;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+
+}
+nav ul li{
+  height: 16px;
+}
+nav a {
+  text-decoration: none;
+  color:white;
+}
+
+nav a:hover {
+  text-shadow: 0px 0px 10px black
+}
+
+.active{
+  border-bottom:2px solid #ea2434;
+}
+
+#burger {
+    display: none
+}
+
+@media only screen and (max-width: 770px) {
+    nav {
+        display: none;
+    }
+
+    #burger {
+        display: block;
+        height: 30px;
+        width: 30px;
+    }
+
+    .titre a img {
+        width: 50vw;
+        height: auto;
+    }
+
+    .logo img{
+        width: 10vw;
+        height:auto;
+        min-height: 50px;
+        min-width: 60px
+    }
+}
+
+/* Fin partie header*/
+
+
+
+
+/*partie footer*/
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #3C9640;
+    width: 100%;
+    height: 50px;
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer a{
+    text-decoration: none;
+    color:white;
+}
+
+footer a:hover {
+   text-decoration: underline;
+}
+
+#arup {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #EA2434;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#arup img {
+    height: 20px;
+    width: 20px;
+}
+
+#arup:hover {
+    box-shadow: 0px 0px 20px grey
+}
+
+#arup:active {
+    background-color: #AA2434
+}

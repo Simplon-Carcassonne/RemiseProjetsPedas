@@ -1,0 +1,468 @@
+/* debut popup catalogue */
+/* debut afficher cacher */
+.overlay{
+  position:fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+  display:flex;
+}
+
+.overlay:target{
+  visibility: visible;
+  opacity: 1;
+}
+/* fin afficher cacher */
+
+.SpecialPopup{
+  width:80%;
+  background-color:white;
+  margin:0 auto;
+  padding:10px;
+}
+
+.popup{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* debut galerie du popup */
+#galerie{
+  width:40%;
+  padding: 15px ;
+  margin: 15px 30px ;
+  text-align: center ;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#galerie_mini{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul#galerie_mini{
+  margin: 0 ;
+  padding: 0 ;
+  list-style-type: none ;
+  width:15%;
+
+}
+
+ul#galerie_mini li{
+  float: left ;
+}
+
+ul#galerie_mini li a img{
+  margin: 2px 1px;
+  border: 1px solid #ea2434 ;
+  width:100%;
+}
+
+dl#photo{
+  clear: both;
+  width:85%;
+  margin: 0 auto;
+  margin-left:5%;
+}
+
+dl#photo dd{
+  margin: 0;
+}
+
+dl#photo img{
+  border: 1px solid #ea2434;
+  width:100%;
+}
+/* fin galerie du popup*/
+
+/* debut style du popup1 */
+.NomPrix{
+  width:60%;
+  height:350px;
+  padding:10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.carac_desc{
+  width:80%;
+  margin:0 auto;
+  display: flex;
+  text-align: center;
+}
+
+.caracteristique{
+  width:50%;
+  padding-top:10px;
+}
+
+.liste{
+  display: flex;
+  justify-content: space-around;
+}
+
+.liste li{
+  text-align: left;
+  font-style: italic;
+  font-size:0.7em;
+  margin-bottom:2px;
+}
+
+.liste li span{
+  font-style: normal;
+  font-size:1.3em;
+}
+
+.descriptif{
+  width:50%;
+  padding-top:10px;
+}
+
+.descriptif p{
+  text-align: justify;
+  font-size:0.75em;
+  padding-right:5px;
+}
+
+.popup h2{
+  color:#ea2434;
+  font-family: helvetica;
+  font-size:2.3em;
+  margin-bottom:20px;
+}
+
+.popup h3{
+  color:#3c9640;
+  font-family: helvetica;
+  font-size:2.5em;
+}
+
+.popup h3 span{
+  color:#3c9640;
+  font-family: helvetica;
+  font-size:0.5em;
+}
+
+.carac_desc h4{
+  font-family: helvetica;
+  font-size:1.4em;
+  margin-bottom:10px;
+}
+
+/* début popup1 Bouton resevation */
+ .Reservation {
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family:helvetica;
+    font-size: 16px;
+    border-radius: 21px;
+    background-color:#3c9641;
+    text-shadow: 1px 1px 0px #528ecc;
+    width:200px;
+    margin-top:20px;
+}
+ .Reservation:hover {
+    background-color:#3c9641;
+    box-shadow: inset -2px -2px 3px 3px rgba(0,0,0,0.4);
+}
+ .Reservation:active {
+    position: relative;
+    top: 1px;
+}
+ .Reservation-text {
+    padding: 9px 15px;
+    float: left;
+}
+ .Reservation-icon {
+    border-right: 1px solid rgba(255, 255, 255, 0.16);
+    box-shadow: rgba(0, 0, 0, 0.14) -1px 0px 0px inset;
+    border-radius: 21px 0 0 21px;
+    font-size: 15px;
+    padding: 9px 8px;
+    float: left;
+}
+/* fin popup1 Bouton resevation */
+
+/* début popup1 Bouton retour */
+ .Retour {
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: helvetica;
+    font-size: 15px;
+    border-radius: 21px;
+    background-color:#3c9641;
+    text-shadow: 1px 1px 0px #528ecc;
+    box-shadow: inset 1px 1px 0px 0px #bbdaf7;
+    width:200px;
+    margin-top:20px;
+}
+ .Retour:hover {
+   background-color:#3c9641;
+   box-shadow: inset -2px -2px 3px 3px rgba(0,0,0,0.4);
+}
+ .Retour:active {
+    position: relative;
+    top: 1px;
+}
+ .Retour-text {
+    float: left;
+    padding:9px 18px;
+}
+ .Retour-icon {
+    border-right: 1px solid rgba(255, 255, 255, 0.16);
+    box-shadow: rgba(0, 0, 0, 0.14) -1px 0px 0px inset;
+    border-radius: 21px 0 0 21px;
+    font-size: 15px;
+    padding: 9px 10px;
+    float: left;
+}
+/* fin popup1 Bouton retour */
+
+/* fin style du popup1 */
+
+
+/* debut style popup2 afficher panier ou retour (et style boutton) */
+
+/* debut button retour */
+ .css-button_retour {
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 15px;
+    border-radius: 23px;
+    background-color:#3c9641;
+    text-shadow: 1px 1px 0px #528ecc;
+    box-shadow: inset 1px 1px 0px 0px #bbdaf7;
+    width:150px;
+}
+ .css-button_retour:hover {
+   background-color:#3c9641;
+   box-shadow: inset -2px -2px 3px 3px rgba(0,0,0,0.4);
+}
+ .css-button_retour:active {
+    position: relative;
+    top: 1px;
+}
+ .css-button_retour-text {
+    padding: 10px 30px;
+    float: left;
+}
+ .css-button_retour-icon {
+    border-right: 1px solid rgba(255, 255, 255, 0.16);
+    box-shadow: rgba(0, 0, 0, 0.14) -1px 0px 0px inset;
+    border-radius: 23px 0 0 23px;
+    font-size: 16px;
+    padding: 9px 10px;
+    float: left;
+}
+ .css-button_retour-icon i {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+/* fin button retour */
+
+/* debut button panier */
+ .css-button_panier {
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 15px;
+    border-radius: 23px;
+    background-color:#3c9641;
+    text-shadow: 1px 1px 0px #528ecc;
+    box-shadow: inset 1px 1px 0px 0px #bbdaf7;
+    width:150px;
+}
+ .css-button_panier:hover {
+   background-color:#3c9641;
+   box-shadow: inset -2px -2px 3px 3px rgba(0,0,0,0.4);
+}
+ .css-button_panier:active {
+    position: relative;
+    top: 1px;
+}
+ .css-button_panier-text {
+    padding: 10px 30px;
+    float: right;
+}
+ .css-button_panier-icon {
+    border-left: 1px solid rgba(255, 255, 255, 0.16);
+    box-shadow: rgba(0, 0, 0, 0.14) 1px 0px 0px inset;
+    border-radius: 0 23px 23px 0;
+    font-size: 16px;
+    padding: 9px 10px;
+    float: right;
+}
+ .css-button_panier-icon i {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+/* fin button panier */
+
+
+/* debut cacher afficher popup2 */
+.panier_retour{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 1);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.panier_retour:target{
+  visibility: visible;
+  opacity: 1;
+}
+
+.retour_panier{
+  background-color: white;
+  width:400px;
+  height:200px;
+  margin:0 auto;
+  margin-top:200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bouton{
+  margin-top:20px;
+}
+
+.panier_retour h1{
+  font-size:2em;
+  color:#3c9641;
+  font-weight: bold;
+}
+/*fin popup2 afficher panier ou retour*/
+
+/* fin style du popup2 */
+
+/* fin popup catalogue */
+
+
+@media only screen and (max-width: 1000px){
+
+  #galerie{
+    width:100%;
+    margin:0;
+    margin-top:20%;
+    padding:0;
+  }
+
+  .caracteristique{
+    width:100%;
+  }
+
+  .descriptif{
+    width:100%;
+  }
+
+  .popup{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .SpecialPopup{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+  }
+
+  .carac_desc{
+    height:80vh;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left:5%;
+  }
+
+  .NomPrix{
+    padding:0;
+  }
+
+  .NomPrix h2{
+    font-size:1.5em;
+    margin-bottom:10px;
+  }
+
+}
+
+@media only screen and (max-width: 600px){
+
+  #galerie{
+    width:50%;
+    margin:0;
+    padding:0;
+  }
+
+  .caracteristique{
+    width:100%;
+  }
+
+  .descriptif{
+    width:100%;
+  }
+
+  .popup{
+    width:100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .SpecialPopup{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+  }
+
+  .carac_desc{
+    height:80vh;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .NomPrix {
+    width:50%;
+  }
+
+  .NomPrix h2{
+    font-size:1em;
+    margin-bottom:10px;
+  }
+
+  .NomPrix h3{
+    font-size:1.5em;
+    margin-bottom:;
+  }
+
+}
